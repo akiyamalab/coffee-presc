@@ -1,0 +1,4 @@
+[submodule "coffeepresc/retrieval/FBDBv2"]
+	path = coffeepresc/retrieval/FBDBv2
+	url = git@github.com:akiyamalab/FBDBv2.git
+	branch = coffee-presc
