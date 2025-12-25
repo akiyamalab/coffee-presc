@@ -144,7 +144,7 @@ class build_cpp_bin(build_py):
 
 setup(
     name="coffeepresc",
-    version="0.1.0",
+    version="1.0.0",
     description="COFFEE-PRESC: COmpound Filtering by Fragment pair-based Efficient Evaluation for PRE-SCreening",
     packages=find_packages(),
     install_requires=[
