@@ -1,0 +1,1 @@
+from .decompose import decompose_for_database, decompose_for_representative
