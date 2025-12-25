@@ -1,0 +1,22 @@
+# COFFEE-PRESC files
+## Input
+receptor = "example/receptor.pdb"
+fragments = "example/fragments.sdf"
+## Output
+output = "example/output.csv"
+## Intermediate (optional in `coffeepresc`)
+query = "example/query.csv"
+matched = "example/matched.csv"
+
+# Logger option
+log = "example/coffeepresc.log"
+
+# For fragquery
+docking_config = "example/docking_box.conf"
+
+# For fbdb
+storage = "example/db.h5"
+similarity_th = 0.45
+
+# For cmpdeval
+penalty_coef = 8.0
