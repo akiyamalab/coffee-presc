@@ -1,0 +1,33 @@
+{
+    "runArgs": [],
+    "name": "coffee-presc",
+    "dockerFile": "Dockerfile",
+    "build": {
+        "args": {
+            "PYTHON_VERSION": "3.12",
+            "MINICONDA_VERSION": "24.7.1-0"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "mhutchie.git-graph",
+                "shd101wyy.markdown-preview-enhanced",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-python.python",
+                "ms-python.black-formatter",
+                "ms-python.isort",
+                "ms-toolsai.jupyter"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/opt/conda/bin/python",
+                "python.terminal.activateEnvironment": true
+            }
+        }
+    },
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/root/.ssh_host,type=bind",
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/root/.gitconfig,type=bind"
+    ]
+}
