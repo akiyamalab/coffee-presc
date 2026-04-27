@@ -142,4 +142,4 @@ Fragment decomposition (preprocessing; produces fragments SDF from molecules for
 - **Note**: The output from `decompose` requires conformer generation using an external tool (e.g., Omega). The resulting conformers file will be used later as input to `fbdb create` (via `--conformers`).
 
 ## Reference
-Shimizu M, Yoneyama S, Yanagisawa K, Akiyama Y. (in prep)
+Shimizu M, Yoneyama S, Yanagisawa K, Akiyama Y. [COFFEE-PRESC: A Fast Prescreening Method Using Compound Retrieval by Pairwise Positional Relationship of Representative Fragments](https://pubs.acs.org/doi/10.1021/acs.jcim.5c03067), *Journal of Chemical Information and Modeling*, 66(8):4672–4684, 2026. doi: 10.1021/acs.jcim.5c03067
